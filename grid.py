@@ -8,6 +8,13 @@ class Grid:
             [[0], [1], [2], [3]],
         ]
 
+    def get_x_coordinate(self, x):
+        print(self.grid[x])
+        return self.grid[x]
+
+
 testGrid = Grid()
 
-print(testGrid.grid)
+testGrid.get_x_coordinate(2)
+
+
